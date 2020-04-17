@@ -12,6 +12,7 @@ public class Hospital {
 	
 	public String insertHospital(HospitalBean doc) {
 
+		//
     	String output = "";
 		try
 		{
