@@ -10,6 +10,9 @@ import DbConnect.DBConnection;
 
 public class Hospital {
 	
+	//HealthcareService/Hospital
+	
+// Insert Hospital -------------------------------------------------------------------------------------------------------------------
 	public String insertHospital(HospitalBean doc) {
 
 		//
@@ -51,7 +54,9 @@ public class Hospital {
 		}
 		return output;
 	}
+
 	
+// Read Hospital -------------------------------------------------------------------------------------------------------------------
 	public String readHospital() {
 		String output = "";
 		try {
@@ -109,6 +114,8 @@ public class Hospital {
 		return output;
 	}
 	
+	
+// Update Hospital -------------------------------------------------------------------------------------------------------------------
 	 public String updateHospital(HospitalBean doc) {
 
 	    	String output = "";
@@ -149,6 +156,7 @@ public class Hospital {
 			return output;
 		}
 	 
+// Remove Hospital -------------------------------------------------------------------------------------------------------------------
 	 public String removeHospital(String HospitalID) {
 
 	    	String output = "";
