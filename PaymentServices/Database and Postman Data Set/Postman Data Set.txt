@@ -1,0 +1,32 @@
+Content-Type    -    application/json
+
+
+View Payment Data--------------------------------------------
+
+	http://localhost:8081/PaymentServices/HealthcareService/Payment
+
+
+Add Payment Data--------------------------------------------
+
+{
+	"cardNo":"321596478",
+	"nameOnCard":"P K BHAGYA",
+	"expDate":"2020/12/15",
+	"cvc":"654"
+}
+
+Update Payment Data--------------------------------------------
+
+{
+	"pamentID":"3",  
+	"cardNo":"254876952",  
+	"nameOnCard":"B C R M COORAY",  
+	"expDate":"2025/10/25",  
+	"cvc":"987" 	
+}
+
+Delete Payment Data--------------------------------------------
+
+{
+	"pamentID":"3"
+}
