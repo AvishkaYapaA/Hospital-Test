@@ -23,7 +23,9 @@ public class HospitalService {
 	Hospital hospital =  new Hospital();
 	
 	
+
 	//Read Hospital List
+
   	@GET
   	@Path("/")
   	@Produces(MediaType.TEXT_HTML)
@@ -31,7 +33,9 @@ public class HospitalService {
   		return hospital.readHospital();
   	}
   	
+
   	//Add Hospital List
+
   	@POST
     @Path("/")
     @Consumes(MediaType.APPLICATION_JSON)
@@ -45,7 +49,9 @@ public class HospitalService {
 
     }
   	
+
   	//Update Hospital List
+
   	@PUT
     @Path("/")
     @Consumes(MediaType.APPLICATION_JSON)
@@ -59,7 +65,9 @@ public class HospitalService {
 
     }
   	
+
   	//Delete Hospital List
+
   	@DELETE
     @Path("/")
     @Consumes(MediaType.APPLICATION_JSON)

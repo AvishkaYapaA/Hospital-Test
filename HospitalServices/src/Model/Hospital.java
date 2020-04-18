@@ -1,3 +1,4 @@
+
 package Model;
 
 import java.sql.Connection;
@@ -10,9 +11,12 @@ import DbConnect.DBConnection;
 
 public class Hospital {
 	
+
 	//HealthcareService/Hospital
 	
 // Insert Hospital -------------------------------------------------------------------------------------------------------------------
+
+
 	public String insertHospital(HospitalBean doc) {
 
 		//
@@ -55,8 +59,11 @@ public class Hospital {
 		return output;
 	}
 
+
 	
 // Read Hospital -------------------------------------------------------------------------------------------------------------------
+
+	
 	public String readHospital() {
 		String output = "";
 		try {
@@ -67,7 +74,11 @@ public class Hospital {
 			
 			
 			// Prepare the html table to be displayed
+
 			output = "<table border=\"2\" style=\"width:100%\" >"
+
+			output = "<table border=\"1\">"
+
 					+ "<tr>"
 					+ "<th>MOH Registration Code</th>"
 					+ "<th>Manager Name</th>"
@@ -114,8 +125,11 @@ public class Hospital {
 		return output;
 	}
 	
+
 	
 // Update Hospital -------------------------------------------------------------------------------------------------------------------
+
+
 	 public String updateHospital(HospitalBean doc) {
 
 	    	String output = "";
@@ -156,7 +170,9 @@ public class Hospital {
 			return output;
 		}
 	 
+
 // Remove Hospital -------------------------------------------------------------------------------------------------------------------
+
 	 public String removeHospital(String HospitalID) {
 
 	    	String output = "";
