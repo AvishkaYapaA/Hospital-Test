@@ -1,0 +1,239 @@
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                      HOSPITAL MANAGEMENT
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Content-Type    -    application/json
+
+
+View Hospital Data--------------------------------------------
+
+	http://localhost:9090/HospitalServices/HealthcareService/Hospital
+
+
+Add Hospital Data--------------------------------------------
+
+{
+	"MOHcode":"GOV1056",
+	"ManagerName":"Dr. Kamal Gunarathne",
+	"HospitalName":"Suwasetha Hospital",
+	"Address":"199/C panama Rd, Kelaniya",
+	"TPnumber":"0485621114",
+	"Location":"Kelaniya",
+	"Username":"Suwasetha@gmail.com",
+	"Password":"KLGOV1056"
+	
+}
+
+Update Hospital Data--------------------------------------------
+
+{
+	"HospitalID":"2",
+	"MOHcode":"GOV1056",
+	"ManagerName":"Dr. Kamal Gunarathne",
+	"HospitalName":"Suwasetha Hospital",
+	"Address":"199/C panama Rd, Kelaniya",
+	"TPnumber":"0485621114",
+	"Location":"Kelaniya",
+	"Username":"Suwasetha@gmail.com"
+	"Password":"KLGOV1056"
+	
+}
+
+Delete Hospital Data--------------------------------------------
+
+{
+	"HospitalID":"2"
+}
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                      DOCTOR MANAGEMENT
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Content-Type    -    application/json
+
+
+View Doctor Data--------------------------------------------
+
+	http://localhost:8081/DoctorServices/HealthcareService/Doctors
+
+Add Doctor Data--------------------------------------------
+
+	{
+ 		"Dname":"Amal",
+	        "DRegNo":"00023",
+ 		"Specialization":"MSC",
+ 		"ContactNo":"0778485783",
+ 		"Address":"Kaluthara",
+ 		"Email":"amal@gmail.com",
+ 		"HospitalName":"Kaluthara"
+	} 
+
+Update Doctor Data--------------------------------------------
+
+        {
+ 		 "DoctorId":"8",
+		 "Dname":"John",
+		 "DRegNo":"00023",
+		 "Specialization":"MSC",
+		 "ContactNo":"0778485783",
+		 "Address":"Kaluthara",
+ 		 "Email":"amal@gmail.com",
+		 "HospitalName":"Kaluthara"
+         } 
+
+
+Delete Doctor Data--------------------------------------------
+	{
+		 "DoctorId":"8"
+	} 
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                      PAYMENT MANAGEMENT
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Content-Type    -    application/json
+
+
+View Payment Data--------------------------------------------
+
+	http://localhost:8081/PaymentServices/HealthcareService/Payment
+
+
+Add Payment Data--------------------------------------------
+
+{
+	"cardNo":"321596478",
+	"nameOnCard":"P K BHAGYA",
+	"expDate":"2020/12/15",
+	"cvc":"654"
+}
+
+Update Payment Data--------------------------------------------
+
+{
+	"pamentID":"3",  
+	"cardNo":"254876952",  
+	"nameOnCard":"B C R M COORAY",  
+	"expDate":"2025/10/25",  
+	"cvc":"987" 	
+}
+
+Delete Payment Data--------------------------------------------
+
+{
+	"pamentID":"3"
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                      PATIENTS MANAGEMENT
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Content-Type    -    application/json
+
+
+View Patient Data--------------------------------------------
+
+	http://localhost:8080/PatientServices/HealthcareService/Patients
+
+
+Add Patient Data--------------------------------------------
+
+{
+	"userName":"kalani",
+	"userAddress":"panadura",
+	"nicNo":"991122443V",
+	"dateOfBirth":"1999/12/14",
+	"gender":"female",
+	"mobileNumber":"0112897544",
+	"email":"nalau@gmail.com",
+	"password":"wwwww"
+}
+
+Update Patient Data--------------------------------------------
+
+{
+	"userID":"7",
+	"userName":"kasun",
+	"userAddress":"malabe",
+	"nicNo":"954477113V",
+	"dateOfBirth":"1995/03/21",
+	"gender":"male",
+	"mobileNumber":"0712338211",
+	"email":"kasu@gmail.com",
+	"password":"2222aaaa"
+}
+
+Delete Patient Data--------------------------------------------
+
+{
+	"userID":"8"
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                      APPOINTMENT MANAGEMENT
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Content-Type    -    application/json
+
+
+View Doctor Data--------------------------------------------
+
+	http://localhost:8085/AppointmentService/HealthcareService/Schedule
+
+Add Appointment Data--------------------------------------------
+
+{
+	"Doctor_ID":"1",
+	
+		"Hospital_ID":"2",
+	
+		"Chargers":"1000.00",
+	
+		"Available_Time":"2020-04-22 10:00:00",
+	
+		"End_Time":"2020-04-22 12:00:00",
+	
+		"Sever_Time":"2020-04-18 16:00:00"
+	
+	
+}
+
+Update Appointment Data--------------------------------------------
+
+{
+	"Shedule_ID":"1",
+	
+		"Doctor_ID":"1",
+	
+		"Hospital_ID":"2",
+	
+		"Chargers":"2000.00",
+	
+		"Available_Time":"2020-04-22 11:00:00",
+	
+		"End_Time":"2020-04-22 13:00:00",
+	
+		"Sever_Time":"2020-04-18 16:00:00"		
+}
+
+Delete Appointment Data--------------------------------------------
+{
+	
+	"Shedule_ID":"10"
+	
+	
+}
