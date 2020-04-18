@@ -1,0 +1,43 @@
+
+Content-Type    -    application/json
+
+
+View Hospital Data--------------------------------------------
+
+	http://localhost:9090/HospitalServices/HealthcareService/Hospital
+
+
+Add Hospital Data--------------------------------------------
+
+{
+	"MOHcode":"GOV1056",
+	"ManagerName":"Dr. Kamal Gunarathne",
+	"HospitalName":"Suwasetha Hospital",
+	"Address":"199/C panama Rd, Kelaniya",
+	"TPnumber":"0485621114",
+	"Location":"Kelaniya",
+	"Username":"Suwasetha@gmail.com",
+	"Password":"KLGOV1056"
+	
+}
+
+Update Hospital Data--------------------------------------------
+
+{
+	"HospitalID":"2",
+	"MOHcode":"GOV1056",
+	"ManagerName":"Dr. Kamal Gunarathne",
+	"HospitalName":"Suwasetha Hospital",
+	"Address":"199/C panama Rd, Kelaniya",
+	"TPnumber":"0485621114",
+	"Location":"Kelaniya",
+	"Username":"Suwasetha@gmail.com"
+	"Password":"KLGOV1056"
+	
+}
+
+Delete Hospital Data--------------------------------------------
+
+{
+	"HospitalID":"2"
+}
