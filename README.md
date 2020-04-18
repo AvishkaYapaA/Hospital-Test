@@ -6,8 +6,8 @@ Healthcare is a hospital management system where the registered users can make a
 
 
 Developed By
-Avishka Yapa
-Bhagya Dilhara
-Tharanga Pradeep
-Chamath Ravindu
+Avishka Yapa,
+Bhagya Dilhara,
+Tharanga Pradeep,
+Chamath Ravindu,
 Madushanika Wijesekara
