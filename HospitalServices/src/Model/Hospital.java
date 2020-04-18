@@ -67,7 +67,7 @@ public class Hospital {
 			
 			
 			// Prepare the html table to be displayed
-			output = "<table border=\"1\">"
+			output = "<table border=\"2\" style=\"width:100%\" >"
 					+ "<tr>"
 					+ "<th>MOH Registration Code</th>"
 					+ "<th>Manager Name</th>"
