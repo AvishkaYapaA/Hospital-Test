@@ -75,7 +75,6 @@ public class Hospital {
 			
 			// Prepare the html table to be displayed
 
-
 			output = "<table border=\"1\">"
 
 					+ "<tr>"
