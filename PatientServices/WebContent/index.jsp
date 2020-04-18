@@ -10,6 +10,8 @@
 <br>
 <br>
 
+<!-- index page -->
+
 	<center>
 	
 	<h1>HealthCare Patients Service</h1>
