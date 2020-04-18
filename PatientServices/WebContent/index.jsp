@@ -15,7 +15,7 @@
 	<h1>HealthCare Patients Service</h1>
 	<br>
 	
-	  <img alt="patient image" src="image/patient.png" width="50%">
+	  <img alt="patient png image" src="image/patient.png" width="50%">
 	
 	</center>
 
