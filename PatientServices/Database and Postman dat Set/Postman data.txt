@@ -1,0 +1,43 @@
+Content-Type    -    application/json
+
+
+
+View All Patients Data--------------------------------------------
+
+
+	http://localhost:8080/PatientServices/HealthcareService/Patients
+
+
+
+	Add Patient Data--------------------------------------------
+
+{
+	"userName":"Sadun",
+	"userAddress":"colombo 5",
+	"nicNo":"991122443V",
+	"dateOfBirth":"1999/12/14",
+	"gender":"female",
+	"mobileNumber":"0112897544",
+	"email":"nalau@gmail.com",
+	"password":"abc123"
+}
+
+Update Patient Data--------------------------------------------
+
+{
+	"userID":"7",
+	"userName":"kasun",
+	"userAddress":"malabe",
+	"nicNo":"954477113V",
+	"dateOfBirth":"1995/03/21",
+	"gender":"male",
+	"mobileNumber":"0712338211",
+	"email":"kasu@gmail.com",
+	"password":"2222aaaa"
+}
+
+Delete Patient Data--------------------------------------------
+
+{
+	"userID":"2"
+}
